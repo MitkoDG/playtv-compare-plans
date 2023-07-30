@@ -1,0 +1,11 @@
+{
+  "name": "playtv-compare-plans",
+  "version": "1.0.0",
+  "description": "the purpose of the app is to compare the plans of TV cable provider \"Telekabel\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "DDG",
+  "license": "MIT"
+}
