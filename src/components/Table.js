@@ -1,5 +1,4 @@
 import React from "react";
-import "./Table.css"; // Import the CSS file for styling
 
 const Table = ({ data }) => {
   return (
