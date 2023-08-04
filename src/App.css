@@ -115,3 +115,21 @@ tr:nth-child(2n) {
 .list-footer {
   list-style-type: none;
 }
+
+.howitworks {
+  position: relative;
+}
+
+.howitworks:hover::before {
+  content: "Email: dimitargegov@gmail.com";
+  position: absolute;
+  top: -15px;
+  left: 0;
+  background-color: #000;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  display: block;
+  opacity: 0.9;
+  z-index: 9999;
+}
