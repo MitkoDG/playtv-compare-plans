@@ -1,5 +1,6 @@
 import { ExcelInput } from './components/ExcelInput';
 import './App.css';
+import { Footer } from './components/Footer';
 
 function App() {
   
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <h1>АБОНАМЕНТНИ ПЛАНОВЕ</h1>
       <ExcelInput />
+      <Footer/>
     </div>
   );
 }

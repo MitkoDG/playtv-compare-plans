@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "site": "plan-comparison-tplay",
+    "public": "build",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
