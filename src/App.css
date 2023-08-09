@@ -42,8 +42,8 @@ a:focus {
 }
 
 .table {
-  /* background-color: black; */
   border: 2px solid rgb(255, 25, 197);
+  border-radius: 5px;
   border-spacing: 8px;
   width: 100%;
 }
@@ -82,4 +82,54 @@ tr:nth-child(2n) {
     border: 1px solid rgb(255, 25, 197); /* Add borders to each cell */
     margin-bottom: 8px; /* Space between the rows */
   }
+}
+
+.main-footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  background-color: #fff;
+  padding: 0.5rem 1rem;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.main-footer nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+}
+
+.main-footer a {
+  height: 80px;
+  text-decoration: none;
+}
+.main-footer img {
+  height: 100%;
+  vertical-align: middle;
+}
+
+.list-footer {
+  list-style-type: none;
+}
+
+.howitworks {
+  position: relative;
+}
+
+.howitworks:hover::before {
+  content: "Email: dimitargegov@gmail.com";
+  position: absolute;
+  top: -15px;
+  left: 0;
+  background-color: #000;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  display: block;
+  opacity: 0.9;
+  z-index: 9999;
 }
