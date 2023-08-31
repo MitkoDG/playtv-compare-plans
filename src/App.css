@@ -39,6 +39,7 @@ a:focus {
 
 .table-container {
   overflow-x: auto;
+  margin-bottom: 66px;
 }
 
 .table {
