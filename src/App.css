@@ -24,7 +24,7 @@ h1 {
   line-height: 1.2;
   margin: 0.67em 0;
   text-align: center;
-  color: black;
+  color: white;
 }
 
 .heading:hover .effect {
@@ -68,8 +68,8 @@ a:focus {
 
 .table {
   border: 2px solid rgb(255, 25, 197);
-  border-radius: 5px;
-  border-spacing: 8px;
+  /* border-radius: 5px; */
+  /* border-spacing: 8px; */
   width: 100%;
 }
 

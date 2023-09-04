@@ -7,7 +7,6 @@ export const Footer = () => {
         <a href="https://dimitargegov.site/" alt="Logo">
           <img src={logo} alt="Logo" />
         </a>
-        <ul>
           <li className="list-footer">Last updated: 31/08/2023</li>
           <li className="list-footer">
             <li className="howitworks">How it works ?</li>
@@ -21,7 +20,6 @@ export const Footer = () => {
               Official Website
             </a>
           </li>
-        </ul>
       </nav>
     </footer>
   )
