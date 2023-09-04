@@ -34,7 +34,7 @@ h1 {
 .file-input {
   display: flex;
   justify-content: space-between;
-  background-color: skyblue;
+  background-color: rgba(21, 130, 247, 0.6);
   color: #fff;
   padding: 10px 15px;
   border: 2px solid rgb(255, 25, 197);
@@ -74,20 +74,20 @@ a:focus {
 }
 
 th {
-  background-color: skyblue;
+  background-color: rgba(21, 130, 247, 0.6);
   color: white;
   padding: 8px;
   text-align: center;
 }
 
 tr {
-  background-color: lightgray;
+  background-color: rgb(167, 166, 166);
   padding: 8px;
   text-align: center;
 }
 
 tr:nth-child(2n) {
-  background-color: rgb(145, 145, 145);
+  background-color: rgb(104, 103, 103);
   padding: 8px;
   text-align: center;
 }
@@ -115,10 +115,13 @@ tr:nth-child(2n) {
   bottom: 0;
   left: 0;
   z-index: 1;
-  background-color: #fff;
-  padding: 0.5rem 1rem;
+  background-color: #b6b4b4;
+  border: 1px solid black;
+  box-shadow: inset rgb(103 76 96) 0px -3px 20px 6px;
+  padding: 0.3rem 0;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  color: rgb(0, 0, 0);
 }
 
 .main-footer nav {
