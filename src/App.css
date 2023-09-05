@@ -138,6 +138,7 @@ tr:nth-child(2n) {
 .main-footer img {
   height: 100%;
   vertical-align: middle;
+  border-radius: 5px;
 }
 
 .list-footer {
