@@ -8,7 +8,7 @@ export const Footer = () => {
         <a href="https://dimitargegov.site/" alt="Logo">
           <img src={logoNoBackground} alt="Logo" />
         </a>
-          <li className="list-footer">Last updated: 13/01/2024</li>
+          <li className="list-footer">Last updated: 26/02/2024</li>
           <li className="list-footer">
             <li className="howitworks">How it works ?</li>
           </li>
