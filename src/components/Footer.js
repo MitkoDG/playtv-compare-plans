@@ -14,7 +14,7 @@ export const Footer = () => {
           </li>
           <li className="list-footer">
             <a
-              href="https://playtv.bg/%d0%b0%d0%b1%d0%be%d0%bd%d0%b0%d0%bc%d0%b5%d0%bd%d1%82%d0%b8-4/"
+              href="https://playtv.bg/%d0%b0%d0%b1%d0%be%d0%bd%d0%b0%d0%bc%d0%b5%d0%bd%d1%82%d0%b8/"
               target="_blank"
               rel="noopener noreferrer"
             >
