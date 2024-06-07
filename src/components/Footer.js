@@ -5,10 +5,10 @@ export const Footer = () => {
   return (
     <footer className="main-footer">
       <nav className="nav-footer">
-        <a href="https://dimitargegov.site/" alt="Logo">
+        <a href="https://dimitargegov.website/" alt="Logo">
           <img src={logoNoBackground} alt="Logo" />
         </a>
-          <li className="list-footer">Last updated: 29/02/2024</li>
+          <li className="list-footer">Last updated: 07/06/2024</li>
           <li className="list-footer">
             <li className="howitworks">How it works ?</li>
           </li>
